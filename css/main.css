@@ -145,8 +145,8 @@ img {
 } 
 
 .header-cont {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
     margin-right: 50px;
 }
 
@@ -158,6 +158,11 @@ img {
 
 
 .header-mail {
+    display: flex;
+    align-items: center;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -169,6 +174,11 @@ img {
 
 
 .header-tell {
+    display: flex;
+    align-items: center;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -416,18 +426,9 @@ img {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em; 
+    margin-bottom: 16px;
 
     color: var(--main-text-color);
-
-}
-
-.social-links {
-    margin-left: 32px;
-    margin-right: 32px;
-
-    margin-top: 16px;
-    display: flex;
-    justify-content: center;
 
 }
 
